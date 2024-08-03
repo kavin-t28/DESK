@@ -1,13 +1,45 @@
-# DESK
-Delivering Efficiency and Support with a Kinetic Buddy
+# Desk Buddy
 
+Desk Buddy is a smart companion designed to address the challenges of the fast-paced work and study environments. It provides a tangible, interactive solution to enhance productivity and well-being by offering emotional support, motivation, task organization, and gentle break reminders.
 
-#### Problem Statement:
+## Problem Statement
 
-In today's fast-paced and demanding work and study environments, employees and students often face challenges that hinder their productivity and overall well-being. One of the recurring obstacles is the lack of a supportive and motivating presence while working or studying at their desks. The absence of a companion or aid can lead to feelings of loneliness, stress, and decreased focus, resulting in reduced efficiency and suboptimal performance.
+In today's work and study environments, the absence of a supportive presence at desks leads to loneliness, stress, and decreased focus. Despite technological advancements, there is a crucial need for a tangible, interactive companion. The lack of such a tool results in reduced efficiency and suboptimal performance.
 
-Currently, workplaces and study areas often lack an interactive and engaging element that can provide the necessary support and encouragement to individuals during their daily tasks. While advancements in technology have led to virtual communication and collaboration, the need for a tangible, physical presence to alleviate stress and maintain productivity remains unaddressed.
+To address this, Desk Buddy serves as a personalized companion, providing emotional support, motivation, task organization, and gentle break reminders. This solution aims to improve focus, reduce stress, enhance performance, and promote better mental well-being for employees and students, revolutionizing work and study habits.
 
-Therefore, there is a crucial need for the development and implementation of a "Desk Buddy" system - a supportive, interactive, and personalized companion designed to cater to the unique needs and preferences of each user. This desk buddy would be a versatile tool capable of offering emotional support, motivational prompts, gentle reminders for breaks, and assistance in organizing tasks efficiently.
+## Solution Components
 
-By addressing this pressing need, employees and students can benefit from improved focus, reduced stress levels, enhanced work/study performance, and an overall positive impact on their mental well-being. The introduction of a Desk Buddy has the potential to revolutionize workplace and study habits, significantly contributing to a healthier and more productive environment.
+- **ESP32:** Hardware foundation for connectivity and data transmission.
+  
+- **DHT11 Temperature Sensor:** Monitors real-time temperature data for user comfort.
+
+- **MQ135 Air Quality Sensor:** Gauges air quality to ensure a healthy environment.
+
+- **Light Sensor:** Adjusts lighting conditions based on user preferences for optimal focus.
+
+- **REACT (Dashboard):** Intuitive and responsive user interface for a seamless Desk Buddy experience.
+
+- **Mosquitto MQTT Broker:** Enables efficient communication between components for real-time updates.
+
+- **Atlas (MongoDB):** Reliable database for storing and managing sensor data for future analysis.
+
+- **Arduino IDE:** Facilitates programming and integration of sensors with the ESP32.
+
+## Clone the repository:
+
+    bash
+    git clone https://github.com/kavin-t28/DESK.git
+    cd DESK
+    
+## Contributing
+
+We welcome contributions! Please check out our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+---
+
+Feel free to reach out for any questions or issues. Happy studying with Desk Buddy!
